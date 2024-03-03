@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Icons";
+    src: url("./Icons.ttf?70e882c4a082c1e2c715730f44fcc33f") format("truetype");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: Icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Calendar:before {
+    content: "\f101";
+}
+.icon-Check:before {
+    content: "\f102";
+}
+.icon-CheckFill:before {
+    content: "\f103";
+}
+.icon-Clock:before {
+    content: "\f104";
+}
+.icon-Close:before {
+    content: "\f105";
+}
+.icon-CloseFill:before {
+    content: "\f106";
+}
+.icon-Editsvg:before {
+    content: "\f107";
+}
+.icon-Inbox:before {
+    content: "\f108";
+}
+.icon-Plus:before {
+    content: "\f109";
+}
+.icon-PlusFill:before {
+    content: "\f10a";
+}
+.icon-Trash:before {
+    content: "\f10b";
+}
+.icon-User:before {
+    content: "\f10c";
+}
